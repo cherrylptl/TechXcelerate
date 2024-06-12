@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style.css">
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>TechXcelerate</h1>
+        <%- include('nav') %>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="image/home.jpg" class="rounded-border">
+            <div class="overlay-text">Welcome to TechXcelerate</div>
+        </div>
+
+        <section class="blog-posts">
+            <article class="blog-post">
+                <img
+                    src="https://www.apple.com/newsroom/images/2024/06/ios-18-makes-iphone-more-personal-capable-and-intelligent-than-ever/article/Apple-WWDC24-iOS-18-iPhone-15-Pro-3-up-240610_big.jpg.large.jpg">
+                <h2>Apple's iOS 18</h2>
+                <p>Apple's iOS 18 Brings Scheduled Text Messages and More to Your iPhone This Fall
+                    The next iOS update will upgrade your Messages app in some big ways and bring more improvements to
+                    your iPhone later this year.</p>
+                <a href="blog">Read more</a>
+            </article>
+
+            <article class="blog-post">
+                <img
+                    src="https://www.cnet.com/a/img/resize/755ba2ec13b7550048b39cb4619148fee3e58a1e/hub/2023/02/16/1e676356-c82a-4e2d-840d-4098d8afa721/sony-psvr-2-0002.jpg?auto=webp&width=1200">
+                <h2>PSVR 2 Review</h2>
+                <p>PSVR 2 Review: The Best VR Gaming Experience With Strings Attached
+                    Sony's PlayStation VR 2 delivers great game play for PS5 owners, but its price and library are far
+                    from ideal yet.</p>
+                <a href="blog">Read more</a>
+            </article>
+
+            </article>
+            <article class="blog-post">
+                <img
+                    src="https://dsjz0v6ta56lv.cloudfront.net/wp-content/uploads/2023/06/The-Powerful-Fusion-of-AI-and-AR.jpg">
+                <h2>Revolutionizing Technology Interactions</h2>
+                <p>Ever imagined a world where technology seamlessly integrates with our reality? A world with enhanced
+                    digital experiences is hard to separate from reality? </p>
+                <a href="blog">Read more</a>
+            </article>
+
+            </article>
+            <article class="blog-post">
+                <img src="https://techcrunch.com/wp-content/uploads/2024/06/InfotainmentsystemTernAI.png">
+                <h2>Tern AI</h2>
+                <p>The most critical systems of our modern world rely on GPS, from aviation and road networks to
+                    emergency and disaster response, from precision farming and power grids to weather forecasting and
+                    military defense. That dependence is becoming a problem</p>
+                <a href="blog">Read more</a>
+
+            </article>
+
+            <article class="blog-post">
+                <img
+                    src="https://helios-i.mashable.com/imagery/articles/03YaD1MCHQL1HLQCVuLkFxC/hero-image.fill.size_1248x702.v1718043371.png">
+                <h2>MacOS 15 Sequoia announced with iPhone mirroring</h2>
+                <p>Apple announced the new software and name at WWDC 2024 — and revealed that for the first time, Apple
+                    is letting you access your iPhone from your desktop.</p>
+                <a href="blog">Read more</a>
+
+            </article>
+
+            <article class="blog-post">
+                <img
+                    src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/06/iphone-flashlight-ios-18.jpg?w=1500&quality=82&strip=all&ssl=1">
+                <h2>Flashlight in iOS 18 has a super-cool new feature</h2>
+                <p>Apple is known for its impressive attention to detail and a simple but important iPhone feature has
+                    received some of that love. Here’s how the all-new iPhone flashlight in iOS 18 works with the
+                    Dynamic Island and new functionality.</p>
+                <a href="blog">Read more</a>
+
+            </article>
+
+        </section>
+    </main>
+    <%- include('footer') %>
+</body>
+
+</html>

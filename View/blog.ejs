@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style.css">
+    <link rel="stylesheet" href="/Style/blog.css">
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>TechXcelerate</h1>
+        <%- include('nav') %>
+    </header>
+
+    <main class="blogPage">
+        <section class="press-release">
+            <h2>Press Release</h2>
+            <p>June 10, 2024</p>
+            <p>iOS 18 makes iPhone more personal, capable, and intelligent than ever. The release introduces all-new
+                customization options, the biggest-ever redesign of Photos, powerful updates for staying connected, and
+                Apple Intelligence, the personal intelligence system.</p>
+            <img src="https://www.apple.com/newsroom/images/2024/06/ios-18-makes-iphone-more-personal-capable-and-intelligent-than-ever/article/Apple-WWDC24-iOS-18-iPhone-15-Pro-3-up-240610_big.jpg.large.jpg"
+                alt="iOS 18 Preview" width="100%">
+        </section>
+
+        <br>
+        <section class="blog-post">
+            <h2>Revolutionizing Technology Interactions</h2>
+            <p>Three iPhone 15 Pro devices are shown in a row, with the first displaying a customized Home Screen, the
+                second showing enhanced Tapbacks in Messages, and the third displaying the redesigned Photos app. iOS 18
+                brings new ways to customize iPhone, additional ways to stay connected in Messages, the biggest-ever
+                redesign of the Photos app, and so much more.</p>
+            <p>CUPERTINO, CALIFORNIA Apple today previewed iOS 18, a major release that features more customization
+                options, the biggest redesign ever of the Photos app, new ways for users to manage their inbox in Mail,
+                Messages over satellite, and so much more...</p>
+            <div class="image-container">
+                <img src="https://www.apple.com/newsroom/images/2024/06/ios-18-makes-iphone-more-personal-capable-and-intelligent-than-ever/article/Apple-WWDC24-iOS-18-Home-Screen-dark-effect-tinted-yellow-240610_inline.jpg.large.jpg"
+                    alt="iOS 18 Devices" width="30%" height="auto">
+
+                <img src="https://www.apple.com/newsroom/images/2024/06/ios-18-makes-iphone-more-personal-capable-and-intelligent-than-ever/article/Apple-WWDC24-iOS-18-Photos-redesigned-240610_inline.jpg.large.jpg"
+                    alt="iOS 18 Devices" width="30%" height="auto">
+
+                <img src="https://www.apple.com/newsroom/images/2024/06/ios-18-makes-iphone-more-personal-capable-and-intelligent-than-ever/article/Apple-WWDC24-iOS-18-Control-Gallery-240610_inline.jpg.large.jpg"
+                    alt="iOS 18 Devices" width="30%" height="auto">
+            </div>
+        </section>
+        <br>
+
+        <section class="blog-post">
+            <h2>Switch the controls</h2>
+            <p>For the first time, users can now switch the controls at the bottom of the Lock Screen, including
+                choosing from options available in the controls gallery or removing them entirely. With the Action
+                button available on iPhone 15 Pro and iPhone 15 Pro Max, users can quickly invoke controls available in
+                the gallery</p>
+
+            <video controls width="100%">
+                <source
+                    src="https://www.apple.com/newsroom/videos/videos-2024/autoplay/2024/ios-18-control-center-lock-screen/large_2x.mp4"
+                    type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <br>
+        <section class="blog-post">
+            <h2>New features come to Apple services this fall</h2>
+            <p>Users can explore hikes in Apple Maps, redeem rewards and access installments with Apple Pay, enjoy a
+                redesigned Apple Fitness+ experience, and more</p>
+            <p>With the release of iOS 18, iPadOS 18, macOS Sequoia, watchOS 11, visionOS 2, and tvOS 18 this fall,
+                Apple is enhancing the services users love with all-new features. Updates include U.S. national park
+                hikes and custom walking routes in Apple Maps; the ability to pay with rewards and installments with
+                Apple Pay; new accessibility features in Apple Music; and a redesigned Apple Fitness+ experience to help
+                users make the most of its robust library of workouts and meditations.</p>
+            <img src="https://www.apple.com/newsroom/images/2024/06/new-features-come-to-apple-services-this-fall/article/Apple-WWDC24-services-hero_big.jpg.large.jpg"
+                alt="iOS 18 Devices" width="30%" height="auto">
+
+        </section>
+        <br>
+        <section class="blog-post">
+            <h2>Tap to Cash with Apple Cash</h2>
+            <p>With Tap to Cash, users are able to send and receive Apple Cash by holding two iPhone devices together —
+                without having to share phone numbers.5 For example, Tap to Cash can be used to pay someone back at
+                dinner or buy something at a garage sale.</p>
+
+            <video controls width="100%">
+                <source
+                    src="https://www.apple.com/newsroom/videos/videos-2024/autoplay/2024/services-tap-to-cash/large_2x.mp4"
+                    type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+
+        </section>
+    </main>
+    <%- include('footer') %>
+</body>
+
+</html>

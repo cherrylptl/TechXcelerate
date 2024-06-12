@@ -1,0 +1,17 @@
+.blogPage {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: calc(30% - 10px);
+    border-radius: 8px;
+}

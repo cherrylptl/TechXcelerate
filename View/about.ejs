@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style.css">
+    <link rel="stylesheet" href="/Style/about.css">
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>TechXcelerate</h1>
+        <%- include('nav') %>
+    </header>
+    <main class="aboutPage">
+
+        <section class="about-me">
+            <h2>About Me</h2>
+            <div class="profile">
+                <img src="/image/profile.jpg" alt="Profile Image">
+                <div class="info">
+                    <p>My name is Cherryl Patel. You can contact me at <a
+                            href="mailto:cpatel3305@conestogac.on.ca">cpatel3305@conestogac.on.ca</a> or call me at
+                        (519) 760 1596.</p>
+                    <p>I'm based in Waterloo, ON. </p>
+                    <p> Connect with me on <a href="https://www.linkedin.com/">LinkedIn</a>
+                        and check out my work on <a href="https://github.com/">GitHub</a>.</p>
+                    <p>I am an enthusiastic Software Developer with expertise in leading the development of
+                        cutting-edge
+                        mobile and web applications. Proficient in Dart, Flutter, JAVA, and C# .NET. Skilled in
+                        utilizing GitHub, Postman, Jira, Azure DevOps, and CI-CD Pipeline to drive project success.
+                        I am
+                        committed to continuous learning and staying abreast of emerging technologies. Known for
+                        adaptability and eagerness to embrace new technologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="technical-skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages/Frameworks:</strong> Dart, Flutter, JAVA, HTML, CSS, PHP, C# .NET</li>
+                <li><strong>Development Tools:</strong> GitHub, Postman, Jira, Azure DevOps, CI-CD Pipeline, Apache
+                    Tomcat</li>
+                <li><strong>Database:</strong> MySQL, MongoDB, Firebase</li>
+                <li><strong>IDEs:</strong> Visual Studio Code, Xcode, Android Studio, Eclipse</li>
+                <li><strong>Operating Systems:</strong> Mac, Windows, Linux</li>
+            </ul>
+        </section>
+
+        <section class="professional-experience">
+            <h2>Professional Experience</h2>
+            <h3>Software Developer, Vedican Technology Pvt Ltd, Surat, IN</h3>
+            <p><em>July 2022 - November 2023</em></p>
+            <ul>
+                <li>Worked on Mobile Application and Flutter Development and iOS Development.</li>
+                <li>Used Dart, Java, and Swift languages.</li>
+                <li>Utilized Jira for agile project management and GitHub for version control.</li>
+                <li>Collaborated closely with design and backend teams to ensure seamless integration and
+                    user-friendly
+                    interfaces.</li>
+                <li>Constructed multiple Android and iOS applications, proficient at configuring OS-level settings.
+                </li>
+                <li>Executed project plans, meeting aggressive deadlines; Coordinated with team and delivered 5+
+                    applications.</li>
+                <li>Demonstrated proficiency in Flutter plugins and packages, including customization to meet
+                    project
+                    requirements.</li>
+            </ul>
+
+            <h3>Software Developer, Tenacious Techies, Surat, IN</h3>
+            <p><em>January 2022 - June 2022</em></p>
+            <ul>
+                <li>Analyzed and assessed the existing app built in Java, identifying areas for improvement in UI
+                    design.</li>
+                <li>Led the collaboration with the design team, leveraging tools like Figma to meticulously craft
+                    captivating UI designs, boosting user engagement.</li>
+                <li>Spearheaded the transformation of the Food Chow app by transitioning from Java to Dart and
+                    Flutter.
+                </li>
+                <li>Leveraged expertise in payment gateways like Razor Pay and Stripe, hardware integration by
+                    implementing receipt printing, and utilized Provider for state management.</li>
+                <li>Implemented best practices and coding standards with MVC architecture and clean coding.</li>
+                <li>Tested and ran the app on diverse iOS and Android platforms, meticulously identifying and
+                    rectifying
+                    98% of bugs across three to four different devices.</li>
+                <li>Deployed Android and iOS apps on the Play Store and App Store, ensuring compliance and managing
+                    efficient release processes.</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <h3>Post Graduation - Mobile Solution Development, Conestoga College, Waterloo, ON</h3>
+            <p><em>January 2024</em></p>
+            <p>GPA: 3.90/4.00</p>
+
+            <h3>Bachelor of Engineering - Computer Engineering, Shree Swami Atmanand Institute of Technology, Surat,
+                IN
+            </h3>
+            <p><em>May 2018 - June 2022</em></p>
+        </section>
+    </main>
+    <%- include('footer') %>
+</body>
+
+</html>

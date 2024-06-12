@@ -1,0 +1,61 @@
+.aboutPage {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.about-me {
+    margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.profile img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1;
+}
+
+h1,
+h2,
+h3 {
+    color: #ffffff;
+}
+
+.technical-skills,
+.professional-experience,
+.education,
+.projects {
+    margin-top: 40px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #444444;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+section ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
